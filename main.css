@@ -1,0 +1,29 @@
+#row_1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#row_2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+#row_3 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+.choice_image {
+  height: 150px;
+  width: 150px;
+}
+
+#user_choice_image #opponent_choice_image {
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+}
+
+  #result {
+    background-color: white;
+}

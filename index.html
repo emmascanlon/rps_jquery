@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Rock Paper Scissors</title>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+
+<div id="row_1">
+  <h1 id="header">Make a Selection: </h1>
+</div>
+<div id="row_2">
+  <div id="user_record">
+    <h5>Your Record:</h5>
+    <table>
+      <tr>
+        <td>Wins</td>
+        <td>Losses</td>
+        <td>Ties</td>
+      </tr>
+      <tr>
+        <td id = "user_wins"></td>
+        <td id = "user_losses"></td>
+        <td id = "user_ties"></td>
+      </tr>
+    </table>
+  </div>
+
+<div><img class = "choice_image" id = "rock" src="http://media.pixcove.com/W/4/1/Rock-Paper-Scissors-Hand-Rock-Free-Image-Gesture-F-0863.jpg"/></div>
+<div><img class= "choice_image" id = "paper" src="http://www.clker.com/cliparts/Y/t/o/V/q/F/paper.svg"></div>
+<div><img class = "choice_image" id="scissors" src="https://static.thenounproject.com/png/1473686-200.png"></div>
+
+
+
+  <div id="opponent_record">
+    <h5>Opponent's Record: <h5>
+    <table>
+      <tr>
+        <td>Wins</td>
+        <td>Losses</td>
+        <td>Ties</td>
+      </tr>
+      <tr>
+        <td id = "opp_wins"></td>
+        <td id = "opp_losses"></td>
+        <td id = "opp_ties"></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="row_3">
+  <div id="user_choice">
+    <h3>You chose...</h3>
+    <div><h5 id="user_choice_image"></h5></div>
+  </div>
+
+  <div><h1 id="result">result</h1></div>
+
+
+  <div id="opponent_choice">
+    <h3>Opponent chose...</h3>
+    <div id="opponent_choice_image"></div>
+  </div>
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
